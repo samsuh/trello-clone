@@ -4,7 +4,7 @@ const OrganizationPage = () => {
     const {userId, orgId} = auth()
 
     return (
-        <div className="mt-14">
+        <div>
             Organization Page
             <p>Organization: {orgId}</p>
             <p>user: {userId}</p>
