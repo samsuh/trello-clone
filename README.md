@@ -2,8 +2,7 @@ DAOify is a project bootstrapped with [`create-next-app`](https://github.com/ver
 
 ## Getting Started
 
-First, run the development server:
-
+Run the development server:
 ```bash
 npm run dev``
 ```
