@@ -17,7 +17,9 @@ interface SidebarProps {
 
 export const Sidebar = ({storageKey = 't-sidebar-state'}: SidebarProps) => {
     // state tracking which accordion is expanded
-    const [expanded, setExpanded] = useLocalStorage<Record<string, any>>(storageKey, {})
+    const [expanded, setExpanded] = useLocalStorage <Record<string, any>> (
+        storageKey, {}
+    )
 
     const {
         organization: activeOrganization,
