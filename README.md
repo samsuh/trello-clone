@@ -9,6 +9,11 @@ npm run dev``
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Goals for this project 
+- Reinforce my knowledge of NextJS, typescript, tailwindcss
+- Create a trello clone that I can actually use personally and shared with people I know
+- Ultimately, create additional features unique to what I need; metamask authentication and metamask-protected editing; Group project spaces for use in DAOs. 
+
 ## Personal notes on my progress on this project
 
 Jan 11, 2024
