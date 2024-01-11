@@ -9,6 +9,7 @@ npm run dev``
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Join our community of builders and supporters
+## Personal notes on my progress on this project
 
-Check out our [Discord Server](https://discord.gg/GHPrm9FFN6) to meet people working on cool projects.
+Jan 11, 2024
+I started the Personal notes section of the readme to track my thought process on the project, and to consolidate what I've learned each day while working on it. This will also help me visibly track the days I'm actively working on this project vs others. 
