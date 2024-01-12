@@ -16,5 +16,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Personal notes on my progress on this project
 
+Jan 12, 2024
+Styled the workspaces sidebar. Add Accordion to list workspaces and render organization.id
+
 Jan 11, 2024
 I started the Personal notes section of the readme to track my thought process on the project, and to consolidate what I've learned each day while working on it. This will also help me visibly track the days I'm actively working on this project vs others. 
