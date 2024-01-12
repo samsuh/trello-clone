@@ -17,7 +17,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Personal notes on my progress on this project
 
 Jan 12, 2024
-Styled the workspaces sidebar. Add Accordion to list workspaces and render organization.id
+Styled the workspaces sidebar. Add Accordion to list workspaces and render organization. Replaced the organization.id with the NavItem component, with interface NavItemProps and Organization type to better lay out and style the workplaces information in sidebar, rendering existing workspaces and visually distinguishing the active organization. Added "img.clerk.com" to nextjs config. 
 
 Jan 11, 2024
 I started the Personal notes section of the readme to track my thought process on the project, and to consolidate what I've learned each day while working on it. This will also help me visibly track the days I'm actively working on this project vs others. 
