@@ -16,6 +16,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Personal notes on my progress on this project
 
+Jan 13, 2024
+Fill out the Accordion in workspace sidebar. Create an array of routes, map over the array of routes to render all the links. Style the links with icon and route name. Change organization.id to organization.name. 
+
 Jan 12, 2024
 Styled the workspaces sidebar. Add Accordion to list workspaces and render organization. Replaced the organization.id with the NavItem component, with interface NavItemProps and Organization type to better lay out and style the workplaces information in sidebar, rendering existing workspaces and visually distinguishing the active organization. Added "img.clerk.com" to nextjs config. 
 
