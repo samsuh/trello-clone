@@ -16,6 +16,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Personal notes on my progress on this project
 
+Jan 14, 2024
+Mobile version of workspaces sidebar.
+
 Jan 13, 2024
 Fill out the Accordion in workspace sidebar. Create an array of routes, map over the array of routes to render all the links. Style the links with icon and route name. Change organization.id to organization.name. 
 
