@@ -16,6 +16,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Personal notes on my progress on this project
 
+Jan 15, 2024
+Workspace Sidebar loading Skeleton implemented.
+
 Jan 14, 2024
 Mobile version of workspaces sidebar.
 

@@ -8,6 +8,7 @@ import { AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import { cn } from "@/lib/utils"
 import { AccordionContent } from "@radix-ui/react-accordion"
 import { Button } from "@/components/ui/button"
+import { Skeleton } from "@/components/ui/skeleton"
 
 
 
@@ -66,5 +67,16 @@ export const NavItem = ({ isExpanded, isActive, organization, onExpand }: NavIte
                 {routes.map((route) => <Button key={route.href} size="sm" onClick={() => onClick(route.href)} className={cn("w-full font-normal justify-start pl-10 mb-1", pathname === route.href && "bg-sky-500/10 text-sky-700")} variant="ghost">{route.icon} {route.label}</Button> ) } 
             </AccordionContent>
         </AccordionItem>
+    )
+}
+
+NavItem.Skeleton = function SkeletonNavItem() {
+    return (
+        <div className="flex items-center gap-x-2">
+            <div className="w-10 h-10 relative shrink-0">
+                <Skeleton className="h-full w-full absolute" />
+            </div>
+            <Skeleton className="h-10 w-full" />
+        </div>
     )
 }
