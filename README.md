@@ -16,6 +16,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Personal notes on my progress on this project
 
+Jan 17, 2024
+Add workplace settings via Clerk's OrganizationProfile component to give access to settings functionality. 
+
 Jan 16, 2024 
 Create Settings Page and make sure the workspace sidebar Settings link properly routes to it. Create appropriate page in settings folder of organizationId inside organization of the dashboard of the app. 
 
