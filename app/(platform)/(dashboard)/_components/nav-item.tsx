@@ -64,7 +64,19 @@ export const NavItem = ({ isExpanded, isActive, organization, onExpand }: NavIte
                 </div>
             </AccordionTrigger>
             <AccordionContent className="pt-1 text-neutral-700">
-                {routes.map((route) => <Button key={route.href} size="sm" onClick={() => onClick(route.href)} className={cn("w-full font-normal justify-start pl-10 mb-1", pathname === route.href && "bg-sky-500/10 text-sky-700")} variant="ghost">{route.icon} {route.label}</Button> ) } 
+                {routes.map(
+                    (route) => (
+                    <Button 
+                        key={route.href} 
+                        size="sm" 
+                        onClick={() => onClick(route.href)} 
+                        className={cn("w-full font-normal justify-start pl-10 mb-1", 
+                            pathname === route.href && "bg-sky-500/10 text-sky-700"
+                        )} 
+                        variant="ghost"
+                    >
+                        {route.icon} {route.label}
+                    </Button>) ) } 
             </AccordionContent>
         </AccordionItem>
     )
