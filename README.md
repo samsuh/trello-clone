@@ -18,6 +18,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Personal notes on my progress on this project
 
+Jan 19, 2024
+Testing how to make prisma work with server components to access and mutate data.
+
 Jan 18, 2024
 Add and initialize database via prisma. Set up local postgres server, create prisma Model, db push, ignored local postgres db folder. Install prisma client. Setup db.ts lib file to access database from globalThis and exclude db initialization from nextjs hot reloading.
 
