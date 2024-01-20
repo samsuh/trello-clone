@@ -1,6 +1,13 @@
 import { OrganizationSwitcher } from "@clerk/nextjs"
 
 const OrganizationPage = () => {
+
+    async function create(formData: FormData) {
+        "use server"
+
+        console.log("OrganizationIdPage function triggered")
+    }
+
     return (
         <div>
             <form>
