@@ -18,6 +18,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Personal notes on my progress on this project
 
+Jan 21, 2024
+Install zod. Separate out concerns moving the db create fx to its own file inside "actions" folder. 
+
 Jan 20, 2024 
 Test nextjs server actions using form submission create function. Use create function to create a new board in the database. Set up prisma on windows machine and set up postgres on new machine. Make create function actually create a new board in the db. 
 
