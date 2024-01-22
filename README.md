@@ -18,6 +18,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Personal notes on my progress on this project
 
+Jan 22, 2024 
+Use zod to validate form input types. 
+
 Jan 21, 2024
 Install zod. Separate out concerns moving the db create fx to its own file inside "actions" folder. 
 
