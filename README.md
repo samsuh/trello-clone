@@ -18,6 +18,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Personal notes on my progress on this project
 
+Jan 23, 2024
+Fetch results from server actions. Render iteration through existing boards. Revalidate path to keep rendered data up to date (hardcoded to the workspace, will fix later to make dynamic)
+
 Jan 22, 2024 
 Use zod to validate form input types. 
 
