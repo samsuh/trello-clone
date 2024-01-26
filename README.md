@@ -18,6 +18,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Personal notes on my progress on this project
 
+Jan 26, 2024 
+Refactor; separate out input and button components from workspace form while retaining errors.
+
 Jan 25, 2024 
 Loading states and display errors in form fields. Move form to form.tsx file, add useFormState hook. 
 
