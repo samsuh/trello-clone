@@ -1,5 +1,6 @@
 import { deleteBoard } from "@/actions/delete-board"
 import { Button } from "@/components/ui/button"
+import { DeleteButton } from "./form-delete"
 
 interface BoardProps {
     title: string
@@ -13,7 +14,7 @@ export const Board = ({title, id}: BoardProps) => {
     return (
         <form className="flex items-center gap-x-2" action={deleteBoardById}>
             <p>Board name: {title}</p>
-            <Button variant="destructive" size="sm" type="submit">Delete</Button>
+            <DeleteButton />
         </form>
     )
 }

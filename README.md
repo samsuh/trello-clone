@@ -18,6 +18,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Personal notes on my progress on this project
 
+Jan 27, 2024
+Disable form button while in submitting state using pending state from react-dom useFormStatus. Refactor button to have pending status. Extract button, delete button and form inputs into their own components. 
+
 Jan 26, 2024 
 Refactor; separate out input and button components from workspace form while retaining errors.
 
