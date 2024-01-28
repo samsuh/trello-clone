@@ -18,6 +18,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Personal notes on my progress on this project
 
+Jan 28, 2024 
+Use server actions instead of api calls to do work. Start to extract server action from actions folder to its own folder where expected inputs and outputs are defined. Create schema.ts for zod validation to keep the schema input type. Create-safe-action file. Create useAction hook and pass safeAction, and extract execute function to call server action, extract data, server/field errors, and callbacks. Create handler for safeAction. 
+
 Jan 27, 2024
 Disable form button while in submitting state using pending state from react-dom useFormStatus. Refactor button to have pending status. Extract button, delete button and form inputs into their own components. 
 
