@@ -1,6 +1,6 @@
 "use client"
 
-import { create } from "@/actions/create-board"
+import { create } from "@/actions/create-board/index.ts"
 import { Button } from "@/components/ui/button"
 import { useFormState } from "react-dom"
 import { FormInput } from "./form-input"
