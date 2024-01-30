@@ -18,6 +18,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Personal notes on my progress on this project
 
+Jan 30, 2024
+Create handler for createBoard using create-safe-action. createBoard returns a promise that returns our board.
+
 Jan 29, 2024 
 Re-examine the server action refactor. useAction takes in safeAction. start to refactor create-board into actions/create-board folder.
 
