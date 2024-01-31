@@ -18,6 +18,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Personal notes on my progress on this project
 
+Jan 31, 2024
+Create a hook to accept safeAction and give us callbacks (i.e. onSuccess, onComplete). Create execute function we'll call inside our components, which accepts inputs. send input inside action. action runs it through action state and makes sure it's validated. if no result, action done with no callbacks. if field errors, something went wrong with validation; extract field errors then pass them to components. if theres a server error, set error and add options callback on error so we can render for user to see (inside a toast or something). if there's results, it successfully created the record, so we can use a callback to work with that record. finally, onComplete we clean up. 
+
 Jan 30, 2024
 Create handler for createBoard using create-safe-action. createBoard returns a promise that returns our board.
 
